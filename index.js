@@ -20,11 +20,12 @@ function whisper(string) {
 var string = 'hello';
 function logShout(string) {
   return string.toUpperCase();
-  console.log(logShout);
+  console.log(string);
 }
 
 var string = 'HELLO';
 function logWhisper(string){
   return string.toLowerCase();
-  console.log(logWhisper);
+  //console.log(logWhisper);
+  console.log(string);
   }
